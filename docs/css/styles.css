@@ -1,5 +1,6 @@
 #wrapper{
-
+    width: 960px;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 #top{
@@ -9,8 +10,42 @@
 #logo{
     float: left;
 
+
 }
 
 #menu{
     float: right;
+    height: 130px;
+    line-height: 130px;
+}
+
+#main{
+
+}
+
+#footer{
+    background-color:black;
+    float: bottom;
+    clear:both;
+    height: 100px;
+    line-height: 100px;
+
+}
+.copyright{
+    color: white;
+}
+.inline{
+    display: inline;
+}
+
+.clearmargin{
+    margin: 0;
+}
+
+.clearpadding{
+    padding:0;
+}
+
+.aligncenter{
+    text-align: center;
 }
