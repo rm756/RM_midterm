@@ -3,79 +3,59 @@
     font-family: "Helvetica Neue", sans-serif;
 }
 
-#top{
-
-}
-
-#logo{
-    float: left;
-
-
-}
-
 #menu{
-    float: right;
     height: 130px;
     line-height: 130px;
+    padding-right: 35px;
 }
 
 #main{
     background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
-    position: relative;
     height: 554px;
     width: 960px;
-    clear:both;
-
-
-
 
 }
 
 #mainabout{
     height: 554px;
     width: 960px;
-    position: relative;
-    clear:both;
 }
 
 #leftpanel{
     height: 554px;
     width: 480px;
-    background-color: black;
     opacity: 0.6;
 
 }
 
 #text{
-    float: left;
     color: white;
+    padding-top: 120px;
+    padding-left: 20px;
 }
 
 #footer{
-    background-color:black;
-    float: bottom;
-    clear:both;
     height: 100px;
     line-height: 100px;
 
 }
 
 #clickbutton{
-    float: bottom;
+    padding-left: 260px;
+    padding-right: 30px;
 }
 
 #box1{
-    float: left;
     height: 300px;
-    border: 1px solid black;
+    padding: 13px;
 }
 
 #pic{
-    border: 1px solid black;
+    height: 199px;
+
 }
 
 #rightpart{
-    float: right;
     width: 593px;
 }
 
@@ -84,14 +64,15 @@
 }
 
 #table{
-    border: 1px solid #000000;
-    float: bottom;
+    width: 190px;
+}
+
+.caption{
     width: 190px;
 }
 
 .border{
     border: 1px solid black;
-
 }
 
 .copyright{
@@ -99,6 +80,9 @@
 }
 .inline{
     display: inline;
+}
+.inlineblock{
+    display: inline-block;
 }
 
 .clearmargin{
@@ -113,3 +97,29 @@
     text-align: center;
 }
 
+.padding{
+    padding: 20px;
+}
+
+.blackbackground{
+    background-color: black;
+}
+
+.floatright{
+    float: right;
+}
+
+.floatleft{
+    float:left;
+}
+.floatbottom{
+    float: bottom;
+}
+
+.fixclear{
+    clear: both;
+}
+
+.position{
+    position: relative;
+}
